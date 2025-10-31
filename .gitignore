@@ -1,0 +1,19 @@
+# Configuration file with credentials
+config.json
+
+# Backup directories
+Backup/
+C:/Backup/
+
+# Log files
+*.log
+Logs/
+
+# WinSCP temporary files
+winscp_*.log
+
+# Windows thumbnail cache
+Thumbs.db
+
+# PowerShell transaction logs
+*_transaction.log

@@ -1,0 +1,36 @@
+{
+  "FTP": {
+    "Host": "192.168.1.100",
+    "Port": 21,
+    "Username": "user",
+    "Password": "password",
+    "RemotePath": "/usb"
+  },
+  "WinSCP": {
+    "ExecutablePath": "C:\\Program Files (x86)\\WinSCP\\WinSCP.com",
+    "Comment": "Update this path if WinSCP is installed in a different location"
+  },
+  "Backup": {
+    "LocalPath": "C:\\Backup\\Carbonite",
+    "Retention": {
+      "HourlyKeepHours": 24,
+      "DailyKeepDays": 7,
+      "WeeklyKeepWeeks": 8,
+      "MonthlyKeepMonths": 12
+    }
+  },
+  "Logging": {
+    "LogFile": "C:\\Backup\\Carbonite\\Logs\\backup.log"
+  },
+  "Email": {
+    "Enabled": false,
+    "NotifyOnSuccess": false,
+    "SmtpServer": "smtp.example.com",
+    "SmtpPort": 587,
+    "UseSsl": true,
+    "Username": "notifications@example.com",
+    "Password": "your-email-password",
+    "From": "carbonite-backup@example.com",
+    "To": "admin@example.com"
+  }
+}
