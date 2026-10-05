@@ -1,6 +1,9 @@
 # Configuration file with credentials
 config.json
 
+# Environment file (if used)
+.env
+
 # Backup directories
 Backup/
 C:/Backup/
@@ -14,6 +17,20 @@ winscp_*.log
 
 # Windows thumbnail cache
 Thumbs.db
+Desktop.ini
 
 # PowerShell transaction logs
 *_transaction.log
+
+# Editor backup files
+*.bak
+*.swp
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
