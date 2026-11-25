@@ -1,3 +1,5 @@
+> **Legacy log (2026-11-24).** New decisions go in `docs/adr/` as ADRs (index: `docs/adr/README.md`). This file is kept for history and takes no new entries. Where the entries went: WinSCP → ADR 0001; GFS retention + 15-minute interval → ADR 0002; credentials in `config.json` → ADR 0003. "Adopt standard docs structure" is docs scaffolding and has no ADR. The 2024-10-31 dates below come a year before the first commit (2025-10-31), so the ADRs use 2025-10-31.
+
 # Decision Log
 
 **Last Updated**: 2024-12-30
