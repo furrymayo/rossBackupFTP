@@ -33,12 +33,17 @@ Automated backup solution for ROSS Carbonite BLACK 3 M/E video switcher. PowerSh
 | System design & data flow | `docs/architecture.md` |
 | Host details, IPs, FTP config | `docs/infrastructure.md` |
 | Why decisions were made | `docs/decisions.md` |
+| Architecture decisions (ADR index) | `docs/adr/README.md` |
 | Current blockers/issues | `docs/known-issues.md` |
 | How to set up Task Scheduler | `docs/runbooks/setup-scheduler.md` |
 | How to troubleshoot | `docs/runbooks/troubleshooting.md` |
 | How to restore from backup | `docs/runbooks/restore-backup.md` |
 | Script internals & modification | `docs/reference/development.md` |
 | Security considerations | `docs/reference/security.md` |
+
+## Working rules
+
+- A design choice (protocol, format, framework or major library, security approach, data/config model, deployment topology) adds an ADR in `docs/adr/` in the same PR, plus its row in `docs/adr/README.md`. Never rewrite an accepted ADR; supersede it with a new one.
 
 ## Common Commands
 
@@ -101,7 +106,7 @@ Select-String -Path "C:\Backup\Carbonite\Logs\backup.log" -Pattern "ERROR"
 ## Recent Activity
 
 - 2024-12-30: Restructured documentation to standard format; created docs/, scripts/, archive/ directories
-- 2024-10-31: Initial commit - core backup functionality
+- 2025-10-31: Initial commit - core backup functionality
 
 ## Dependencies
 
